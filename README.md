@@ -31,7 +31,7 @@ Since landslide data has both, this was the natural fit.</p>
 <li>Categorical: landslide_category, landslide_trigger, landslide_size, landslide_setting, country_name, country_code
   </ul>
   <li>Choosing the number of clusters
-<p>I ran K-Prototypes for 2 to 10 clusters and plotted the cost for each (the elbow method). I also read the profile of every run, not just the curve, and settled on 6 clusters.</p>
+<p>I ran K-Prototypes for 2 to 10 clusters and plotted the cost for each (the elbow method). I also read the profile of every run, not just the curve, and settled on 5 clusters.</p>
 <li>Reading the clusters<p>
 For each cluster I looked at the average of every numeric feature and the share of every category.</p>
 </ol>
